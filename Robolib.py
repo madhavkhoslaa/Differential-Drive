@@ -1,6 +1,5 @@
 class Robo:
     try:
-        import sys
         import time
         import RPi.GPIO as GPIO
         mode = GPIO.getmode()
